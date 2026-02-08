@@ -12,12 +12,13 @@ import {
   Flower,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+// @ts-ignore
 import confetti from "canvas-confetti";
 
 // --- ASSETS ---
 // Bollywod Romantic Song (Instrumental) or Keep existing
 const MUSIC_URL =
-  "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3";
+  "/song.mp3";
 const CAT_GIF =
   "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmM2Z2QyYnI2Nnk2M2J5eHBoN2w5b3h5b3h5b3h5b3h5b3h5/26FLdmIp6wJr91J4k/giphy.gif";
 const RING_GIF =
